@@ -4,7 +4,7 @@ let discountAvailable: boolean = true;
 
 productName = "Wireless Mouse";
 
-export function getDiscount(price: number, discount: number): number {
+function getDiscount(price: number, discount: number): number {
     return price - (price * discount);
 }
 
